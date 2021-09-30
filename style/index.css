@@ -1,1 +1,154 @@
-/* Add CSS styling here */
+/* css reset styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	/* border: 0; */
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	/* border: 1px solid red; */
+}
+
+/* end normalize code */
+
+/** general styles for every site **/
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: #4f4f4f;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+	padding: 4% 0;
+}
+
+a {
+	text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* general styles for current site */
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+
+
+}
+
+nav a {
+    display: inline-block;
+    width: 10%;
+    padding: 1% 0;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    animation: 3s;
+    background-color: pink;
+    margin: 1%;
+	font-weight: bolder;
+}
+
+nav a:hover {
+    color: #4f4f4f;
+    background-color: whitesmoke;
+    animation: 3s;
+}
+
+.top {
+	text-align: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.item {
+	width: 200px;
+	margin: 10px;
+	padding: 5px;
+}
+

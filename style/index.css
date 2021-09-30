@@ -107,44 +107,49 @@ a {
 h1 {
 	font-size: 1.5em;
 	font-weight: bold;
-	margin: 0 1%;
+	margin: 3% 1%;
 }
 
-section.title-nav {
+header.title-nav {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
-	background-color: rgba(201, 76, 76, 0.3);
+	background-color: rgba(201, 76, 76, 0.08);
+	border-bottom: 2px solid lightgrey;
+	margin: 0;
 }
 
-section div.right {
+header div.right {
 	width: 65%;
 	text-align: right;
+	margin-top: 4%;
+	margin-right: 2%;
 }
 
-section div.left {
+header div.left {
 	width: 30%;
 	text-align: center;
+	vertical-align:middle;
+	margin: 2% 3%;
 }
 
 nav a {
-
-	display: inline-block;
-    padding: 1% 0;
+    display: inline-block;
+	color: #4f4f4f;
+	border: 2px solid #4f4f4f;
     border-radius: 10px;
-    text-align: center;
-    color: #4f4f4f;
-    animation: 3s;
-    background-color: #bee1e6;
-    margin: 1%;
+	text-align: center;
 	font-weight: bolder;
-	width: 100px;
+    width: 100px;
+    background-color: #fad2e1;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
 nav a:hover {
     color: #4f4f4f;
-    background-color: whitesmoke;
-    animation: 3s;
+	background-color: #FFCCCC;
+    width: 120px;
+	transform: scaleY(1.5);
 }
 
 .top {
@@ -154,6 +159,7 @@ nav a:hover {
 	align-items: center;
 	margin: 0;
 	padding: 0;
+	background-color: #F8E2EC;
 }
 
 .gallery-container {

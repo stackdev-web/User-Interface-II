@@ -106,8 +106,18 @@ a {
 
 h1 {
 	font-size: 1.5em;
+	font-weight: bolder;
+	margin: 3% 1%;
+}
+
+h2 {
+	font-size: 1em;
 	font-weight: bold;
 	margin: 3% 1%;
+}
+
+p {
+	margin: 1% 0;
 }
 
 header.title-nav {
@@ -166,6 +176,17 @@ div.video {
 	width: 65%;
 }
 
+div.top-image {
+	width: 450px;
+}
+
+div.content-wrapper {
+	display: inline-block;
+	width: 80%;
+	text-align: left;
+	margin: 2% 5%;
+}
+
 div.text {
 	width: 30%;
 	color: #4f4f4f;
@@ -205,3 +226,13 @@ nav.contact {
 	text-align: center;
 }
 
+div.icons {
+	display: flex;
+	justify-content: center;
+	margin: 2%;
+}
+
+div.icon {
+	width: 48px;
+	margin: 1%;
+}

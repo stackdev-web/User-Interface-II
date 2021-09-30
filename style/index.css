@@ -104,25 +104,41 @@ a {
 
 /* general styles for current site */
 
-header nav {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 10px;
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0 1%;
+}
 
+section.title-nav {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background-color: rgba(201, 76, 76, 0.3);
+}
 
+section div.right {
+	width: 65%;
+	text-align: right;
+}
+
+section div.left {
+	width: 30%;
+	text-align: center;
 }
 
 nav a {
-    display: inline-block;
-    width: 10%;
+
+	display: inline-block;
     padding: 1% 0;
     border-radius: 10px;
     text-align: center;
-    color: white;
+    color: #4f4f4f;
     animation: 3s;
-    background-color: pink;
+    background-color: #bee1e6;
     margin: 1%;
 	font-weight: bolder;
+	width: 100px;
 }
 
 nav a:hover {
@@ -136,6 +152,8 @@ nav a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 0;
+	padding: 0;
 }
 
 .gallery-container {
@@ -143,6 +161,8 @@ nav a:hover {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	margin: 0;
+
 
 }
 
@@ -150,5 +170,20 @@ nav a:hover {
 	width: 200px;
 	margin: 10px;
 	padding: 5px;
+	border: 1px solid lightgray;
+}
+
+.contact {
+	text-align: center;
+}
+
+footer {
+	background-color: #eae4e9;
+	padding: 3%;
+	width: 100%;
+}
+
+footer nav a {
+	width: 250px;
 }
 

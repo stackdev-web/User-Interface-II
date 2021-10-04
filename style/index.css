@@ -1,1 +1,245 @@
-/* Add CSS styling here */
+/* css reset styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	/* border: 0; */
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	/* border: 1px solid red; */
+}
+
+/* end normalize code */
+
+/** general styles for every site **/
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: #4f4f4f;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+	padding: 4% 0;
+}
+
+a {
+	text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* general styles for current site at 800px MAX */
+@media screen and (max-width: 800px)
+
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bolder;
+	margin: 3% 1%;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 3% 1%;
+}
+
+p {
+	margin: 1% 0;
+}
+
+header.title-nav {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background-color: rgba(201, 76, 76, 0.08);
+	border-bottom: 2px solid lightgrey;
+	margin: 0;
+}
+
+header div.right {
+	width: 65%;
+	text-align: right;
+	margin-top: 4%;
+	margin-right: 2%;
+}
+
+header div.left {
+	width: 30%;
+	text-align: center;
+	vertical-align:middle;
+	margin: 2% 3%;
+}
+
+nav a {
+    display: inline-block;
+	color: #4f4f4f;
+	border: 2px solid #4f4f4f;
+    border-radius: 10px;
+	text-align: center;
+	font-weight: bolder;
+    width: 100px;
+    background-color: #fad2e1;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+nav a:hover {
+    color: #4f4f4f;
+	background-color: #FFCCCC;
+    width: 120px;
+	transform: scaleY(1.5);
+}
+
+section.top {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #F8E2EC;
+}
+
+div.video {
+	width: 65%;
+}
+
+div.top-image {
+	width: 450px;
+}
+
+div.content-wrapper {
+	display: inline-block;
+	width: 80%;
+	text-align: left;
+	margin: 2% 5%;
+}
+
+div.text {
+	width: 30%;
+	color: #4f4f4f;
+}
+
+div.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+div.item-container {
+	width: 200px;
+	margin: 3% 1%;
+	padding: 1%;
+	border: 1px solid lightgray;
+}
+
+div.image {
+	width: 200px;
+}
+
+footer {
+	background-color: #eae4e9;
+	padding: 3%;
+	width: 100%;
+}
+
+footer nav a {
+	width: 250px;
+}
+
+nav.contact {
+	text-align: center;
+}
+
+div.icons {
+	display: flex;
+	justify-content: center;
+	margin: 2%;
+}
+
+div.icon {
+	width: 48px;
+	margin: 1%;
+}
+
+
+/* general styles for current site at 500px MAX */
+
+@media screen and (max-width: 500px)

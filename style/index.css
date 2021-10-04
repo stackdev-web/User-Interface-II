@@ -102,7 +102,9 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
-/* general styles for current site */
+/* general styles for current site at 800px MAX */
+@media screen and (max-width: 800px)
+
 
 h1 {
 	font-size: 1.5em;
@@ -236,3 +238,8 @@ div.icon {
 	width: 48px;
 	margin: 1%;
 }
+
+
+/* general styles for current site at 500px MAX */
+
+@media screen and (max-width: 500px)
